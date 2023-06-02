@@ -1,0 +1,17 @@
+   0 mkdir -p /home/user/start
+   1 touch /home/user/start/1.txt
+   2 tree /home
+   3 echo 'Start' >> /home/user/start/1.txt 
+   4 date +'%D' >> /home/user/start/1.txt 
+   5 cat /home/user/start/1.txt 
+   6 mkdir /opt/task
+   7 cp /home/user/start/1.txt /opt/task/start.txt
+   8 tree /opt
+   9 ls -a / | teil -4
+  10 cd /
+  11 ls -a | teil -4
+  12 ls -a | tail -4
+  13 ls -a | tail -4 >> /opt/task/start.txt 
+  14 tree /opt
+  15 cat /opt/task/start.txt 
+  16 history > history_HW_2.txt
