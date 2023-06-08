@@ -1,0 +1,11 @@
+   0 vi /tmp/file.txt
+   1 df -h | head -3 >> /tmp/file.txt 
+   2 cat /tmp/file.txt 
+   3 chmod g+w /tmp/file.txt 
+   4 chmod u-r /tmp/file.txt 
+   5 ls -l
+   6 ls -l /tmp
+   7 chmod x+o /tmp/file.txt
+   8 chmod o+x /tmp/file.txt 
+   9 ls -l /tmp
+  10 history > history_HW_3.txt
