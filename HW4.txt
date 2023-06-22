@@ -1,0 +1,9 @@
+#!/bin/bash
+
+date
+
+USER=$(whoami)
+
+echo "hello $USER!"
+
+echo $(pwd)
